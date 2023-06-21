@@ -679,6 +679,10 @@ h6 { font-size: 16px; }
 	float: left;
 	overflow: hidden;
 }
+.cavani_tm_title .second_paragraph {
+	margin-top: 50px;
+
+}
 .cavani_tm_title span{
 	display: inline-block;
 	position: relative;
@@ -1900,6 +1904,7 @@ h6 { font-size: 16px; }
 	float: left;
 	padding-left: 30px;
 }
+
 .cavani_tm_news .news_list ul li .list_inner{
 	position: relative;
 	width: 100%;
@@ -1908,6 +1913,7 @@ h6 { font-size: 16px; }
 	float: left;
 	border: 1px solid rgba(0,0,0,.07)
 }
+
 .cavani_tm_news .news_list ul li .image{
 	position: relative;
 	overflow: hidden;
@@ -1996,6 +2002,11 @@ h6 { font-size: 16px; }
 	display: inline-block;
 	color: #333;
 }
+.cavani_tm_growth .news_list ul li .list_inner ul {
+	display: flex;
+	list-style: none;
+	align-items: center;
+}
 .cavani_tm_news .news_hidden_details{
 	display: none;
 	opacity: 0;
@@ -2083,7 +2094,7 @@ h6 { font-size: 16px; }
 .cavani_tm_growth .news_list > ul > li{
 	width: 100%;
     margin: 0;
-    padding: 29px 0;
+    padding: 20px 0;
 }
 .cavani_tm_growth .news_list > ul > li .list_inner{
 	width: 100%;
@@ -2114,20 +2125,26 @@ h6 { font-size: 16px; }
 }
 .cavani_tm_growth .news_list > ul > li .list_inner .details{
 	position: relative;
-    padding-left: 30px;
-    margin-left: 29px;
-    max-width: calc(100% - 80px);
+    /*padding-left: 30px;
+    margin-left: 29px;*/
+/*    max-width: calc(100% - 80px);*/
 }
-.cavani_tm_growth .news_list > ul > li .list_inner .details:before{
+
+.cavani_tm_growth .news_list > ul > li .list_inner .blog_image{
+	width: 175px;
+	margin-right: 20px;
+}
+
+/*.cavani_tm_growth .news_list > ul > li .list_inner .details:before{
 	position: absolute;
     content: "";
-    top: -17px;
-    bottom: -22px;
+    top: 0px;
+    bottom: 0px;
     left: 0px;
     background-color: #b9b8c3;
     width: 2px;
     transform: rotate(8deg);
-}
+}*/
 .cavani_tm_growth .news_list > ul > li .extra_metas ul{
 	margin: 0px;
     list-style: none;
@@ -2170,7 +2187,7 @@ h6 { font-size: 16px; }
 	        transition: all .3s ease;
 }
 .cavani_tm_growth .news_list > ul > li .extra_metas ul li span a:hover{
-	color: #000;
+/*	color: #000;*/
 }
 .cavani_tm_growth .news_list > ul > li .extra_metas ul li:first-child span{
     padding-left: 0px;
@@ -2184,7 +2201,7 @@ h6 { font-size: 16px; }
 .cavani_tm_growth .news_list > ul > li .post_title h3 a{
 	text-decoration: none;
 	color: #333;
-	font-size: 24px;
+	font-size: 20px;
 	background-image: linear-gradient(currentColor, currentColor);
     background-position: 0% 100%;
     background-repeat: no-repeat;

@@ -503,7 +503,7 @@ h6 { font-size: 16px; }
 	background-position: top;
 }
 .cavani_tm_mainpart .main_content{
-	position: absolute;
+/*	position: absolute;*/
 	top: 0px;
 	right: 0px;
 	bottom: 0px;
@@ -516,6 +516,11 @@ h6 { font-size: 16px; }
 	left: 0px;
 	right: 0px;
 }
+.narrow_section{
+	margin: auto;
+	width: 70%;
+}
+
 .cavani_tm_section{
 	position: absolute;
 	top: 0px;
@@ -582,6 +587,7 @@ h6 { font-size: 16px; }
 .cavani_tm_home .content{
 	padding-left: 100px;
 	padding-right:50px;
+	margin: auto;
 }
 .cavani_tm_home .name{
 	font-size: 48px;
